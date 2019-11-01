@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
+
+html{
+	font-size: 16px;
+}
+
+h1{
+	color: green;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+p{
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.25rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+h3, h4{
+	font-size: 1.75rem;
+}
+li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.35rem;
+	margin: 12px 20px;
+	padding: 0px 10px;
+
+	/* width: 60px; */
+/* 	margin: 0px;
+	padding: 0px; */
+}
+
+li a:hover{
+	background-color: black;
+}
+
+li{
+	display: inline;
+	float: left;
+}
+
+ul{
+	/* list-style-type: none; */
+	text-decoration: none;
+	background-color: grey;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	border-color: black;
+	border: 4px
+}
+.float-left{
+	float: left;
+}
+
+
+.clearfix:after {  
+visibility: hidden;  
+display: block;  
+font‐size: 0;  
+content: " ";  
+clear: both;  
+height: 0; 
+} 
